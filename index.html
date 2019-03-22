@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="widith: device-width; initial-scale: 1.0"/>
+        <title>BigTex</title>
+        <meta name="description" content="BixTex's dealer information sheet"/>
+        <link rel="shorcut icon" href="image/logos/favicon.png"/> <!-- PREGUNTA: como le doy transparencia? -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/10up-sanitize.css/7.0.3/sanitize.css"/>
+        <link href="styles/layout.css" type="text/css" rel="stylesheet"/>
+        <link href="styles/presentation.css" type="text/css" rel="stylesheet"/>
+        <script>
+            alert("Press to enter the survey");
+        </script>
+    </head>
+
+    <body>
+        <header>
+            <div id="logo">    
+                <img width="80px" id="main-logo" src="image/logos/main-logo.png" alt="BigTex main logo"/><span>BigTex</span>
+            </div>
+            <nav id="navigation">
+                <a class="nav-link" href="services.html">services</a>
+                <a class="nav-link" href="about.html">about</a>
+                <a class="nav-link" href="carrers.html">carrers</a>
+                <a class="nav-link" href="contact.html">contact</a>
+                <a class="nav-link" href="support.html">support</a>
+                <a id="sign-up">Sign up</a>
+                <!-- PREGUNTA: 1.Es correcto usar p aca? 2.Porque SPAN anda como el ojete? 3.Es prolijo asi? -->
+            </nav>
+        </header>
+
+        <ul id="steps-bar">
+            <li class="step step-complete"><img width="15px" class="step-ico" src="image/current.png" alt="Current tick logo"/>Client information</li>
+            <li class="step"><img width="15px" class="step-ico" src="image/pendant.png" alt="Pendant tick logo"/>Technical information</li>
+            <li class="step"><img width="15px" class="step-ico" src="image/pendant.png" alt="Pendant tick logo"/>Website content</li>
+            <li class="step"><img width="15px" class="step-ico" src="image/pendant.png" alt="Pendant tick logo"/>Top competitors</li>
+            <li class="step"><img width="15px" class="step-ico" src="image/pendant.png" alt="Pendant tick logo"/>About your business</li>
+            <li class="step"><img width="15px" class="step-ico" src="image/pendant.png" alt="Pendant tick logo"/>Financing</li>
+            <li class="step"><img width="15px" class="step-ico" src="image/pendant.png" alt="Pendant tick logo"/>Trailer categories</li>
+        </ul>      
+
+        <main>
+            <h1 id="sheet-title">Dealer information sheet</h1>
+            <p id="sheet-legend">
+                Night Of seas fruitful image that man of beast heaven green own it after and shall.<br />
+                Likeness shall which creepeth to heaven living open fruit bring created air.
+            </p>
+            <aside id="mandatory">
+              <p>*All fields marked with a<span class="middle-dot">&#183</span> are required</p>  
+            </aside>
+
+            <form action="tech-info.html">
+                <h2 class="form-title">Client information</h2>
+                <!-- Name and last name -->
+                <div class="form-row">
+                    <div class="form-box">
+                        <div class="form-item">
+                            <label>First Name</label>
+                                <input type="text" name="First name" required="required"/>
+                        </div>
+                        <span class="middle-dot">&#183</span>
+                    </div>
+                    <div class="gap"></div>         <!-- Un poco de TRAMPA creo -->
+                    <div class="form-box">
+                        <div class="form-item">
+                            <label>Last name</label>
+                            <input type="text" required="required"/>
+                        </div>
+                        <span class="middle-dot">&#183</span>
+                    </div>
+                </div>
+                <!-- Company name -->
+                <div class="form-row">
+                    <div class="form-box">
+                        <div class="form-item">
+                            <label>Company name</label>
+                            <input type="text" required="required"/>
+                        </div>
+                        <span class="middle-dot">&#183</span>
+                    </div>
+                </div>
+                <!-- Company adress -->
+                <div class="form-row">
+                    <div class="form-box">
+                        <div class="form-item">
+                            <label>Company adress</label>
+                            <input type="text" required="required"/>
+                        </div>
+                        <span class="middle-dot">&#183</span>
+                    </div>
+                </div>
+                <!-- City -->
+                <div class="form-row">
+                    <div class="form-box">
+                        <div class="form-item">
+                            <label>City</label>
+                            <input type="text" required="required"/>
+                        </div>
+                        <span class="middle-dot">&#183</span>
+                    </div>
+                    <div class="gap"></div>
+                    <div class="form-box">
+                        <div class="form-item">
+                            <label>State</label>
+                            <input type="text" required="required"/>
+                        </div>
+                        <span class="middle-dot">&#183</span>
+                    </div>
+                    <div class="gap"></div>
+                    <div class="form-box">
+                        <div class="form-item">
+                            <label>Zip code</label>
+                            <input type="number" required="required"/>
+                        </div>
+                        <span class="middle-dot">&#183</span>
+                    </div>
+                </div>
+                <!-- Business number -->
+                <div class="form-row">
+                    <div class="form-box">
+                        <div class="form-item">
+                            <label>Business number</label>
+                            <input type="text" required="required"/>
+                        </div>
+                        <span class="middle-dot">&#183</span>
+                    </div>
+                    <div class="gap"></div>
+                    <div class="form-box">
+                        <div class="form-item">
+                            <label>Contact number</label>
+                            <input type="text">
+                        </div>
+                    </div>
+                </div>
+                <!-- Emails -->
+                <div class="form-row">
+                    <div class="form-box">
+                        <div class="form-item">
+                            <label>Business email</label>
+                            <input type="text" required="required"/>
+                        </div>
+                        <span class="middle-dot">&#183</span>
+                    </div>
+                    <div class="gap"></div>
+                    <div class="form-box">
+                        <div class="form-item">
+                            <label>Sales email</label>
+                            <input type="text">
+                        </div>
+                    </div>
+                </div>
+                <!-- Company slogan -->
+                <div class="form-row">
+                    <div class="form-box">
+                        <div class="form-item">
+                            <label>Company slogan</label>
+                            <input type="text">
+                        </div>
+                    </div>
+                </div>
+                <!-- Store hours -->
+                <div class="form-row">
+                    <div class="form-box">
+                        <div class="form-item">
+                            <label>Store hours</label>
+                            <input type="text">
+                        </div>
+                    </div>
+                </div>
+                <div class="send">
+                    <input type="submit" class="submit-button" value="Next step"/>
+                </div>
+            </form>
+        </main>
+        <footer>
+            Creado por pela
+        </footer>
+    </body>
+</html>
